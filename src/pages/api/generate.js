@@ -56,6 +56,14 @@ export default async function handler(req, res) {
     if (!profileSlug) return res.status(400).send("Profile slug required");
     if (!jd) return res.status(400).send("Job description required");
 
+    const aiRetries = aiCallRetries();
+    const aiTimeout = aiCallTimeoutMs();
+    const maxAttempts = aiGenerateMaxAttempts();
+
+    console.log(
+      `[generate] provider=${provider} model=${model || "default"} profile=${profileSlug} aiRetries=${aiRetries} aiTimeout=${aiTimeout} maxAttempts=${maxAttempts}`
+    );
+
     const profileConfig = getProfileBySlug(profileSlug);
     if (!profileConfig) {
       return res.status(404).send(`Profile with slug "${profileSlug}" not found`);
@@ -81,10 +89,6 @@ export default async function handler(req, res) {
     const maxTokens = maxOutTokens(provider);
     const aiOpts = { jsonObject: provider === "openai" };
     const experienceCount = profileData.experience.length;
-
-    const aiRetries = aiCallRetries();
-    const aiTimeout = aiCallTimeoutMs();
-    const maxAttempts = aiGenerateMaxAttempts();
 
     async function tryResumeJson(userPrompt, label) {
       const resp = await callAI(userPrompt, provider, model, maxTokens, aiRetries, aiTimeout, aiOpts);

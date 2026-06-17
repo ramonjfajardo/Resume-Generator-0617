@@ -65,7 +65,8 @@ async function callClaude(promptOrMessages, model, maxTokens, retries, timeoutMs
     throw new Error("Anthropic API key not configured");
   }
 
-  while (retries > 0) {
+  let attempts = retries + 1;
+  while (attempts > 0) {
     try {
       let messages;
       let systemPrompt = null;
@@ -102,8 +103,8 @@ async function callClaude(promptOrMessages, model, maxTokens, retries, timeoutMs
         )
       ]);
 
-      if (!response) {
-        throw new Error("Claude returned no response");
+      if (!response || !Array.isArray(response.content) || response.content.length === 0) {
+        throw new Error(`Claude returned invalid response: ${JSON.stringify(response)}`);
       }
 
       // Normalize response format
@@ -115,9 +116,9 @@ async function callClaude(promptOrMessages, model, maxTokens, retries, timeoutMs
         stop_reason: response.stop_reason
       };
     } catch (err) {
-      retries--;
-      if (retries === 0) throw err;
-      console.log(`Retrying Claude... (${retries} attempts left)`);
+      attempts--;
+      if (attempts === 0) throw err;
+      console.log(`Retrying Claude... (${attempts} attempts left)`);
     }
   }
 }
@@ -138,7 +139,8 @@ async function callOpenAI(promptOrMessages, model, maxTokens, retries, timeoutMs
     throw new Error("OpenAI API key not configured");
   }
 
-  while (retries > 0) {
+  let attempts = retries + 1;
+  while (attempts > 0) {
     try {
       let messages;
       let systemPrompt = null;
@@ -197,12 +199,17 @@ async function callOpenAI(promptOrMessages, model, maxTokens, retries, timeoutMs
         response = await runCreate(false);
       }
 
-      if (!response) {
-        throw new Error("OpenAI returned no response");
+      if (!response || !Array.isArray(response.choices) || response.choices.length === 0) {
+        throw new Error(`OpenAI returned invalid response: ${JSON.stringify(response)}`);
       }
 
-      const rawText = response.choices?.[0]?.message?.content;
-      const finishReason = response.choices?.[0]?.finish_reason;
+      const choice = response.choices[0];
+      const rawText = choice?.message?.content;
+      const finishReason = choice?.finish_reason;
+
+      if (rawText == null) {
+        throw new Error(`OpenAI response missing text content: ${JSON.stringify(choice)}`);
+      }
 
       // Normalize response format to match Claude's structure
       return {
@@ -216,9 +223,9 @@ async function callOpenAI(promptOrMessages, model, maxTokens, retries, timeoutMs
         stop_reason: finishReason === "length" ? "max_tokens" : finishReason === "content_filter" ? "content_filter" : "stop"
       };
     } catch (err) {
-      retries--;
-      if (retries === 0) throw err;
-      console.log(`Retrying OpenAI... (${retries} attempts left)`);
+      attempts--;
+      if (attempts === 0) throw err;
+      console.log(`Retrying OpenAI... (${attempts} attempts left)`);
     }
   }
 }
