@@ -25,29 +25,29 @@ export const AVAILABLE_MODELS = {
   openai: [
     // First entry is the default when OPENAI_MODEL is unset (see getDefaultModel)
     { id: "gpt-5-mini", name: "GPT-5 Mini" },
-    { id: "gpt-4o", name: "gpt-4o" },
-    { id: "gpt-4o-mini", name: "GPT-4o Mini" },
+    // { id: "gpt-4o", name: "gpt-4o" },
+    // { id: "gpt-4o-mini", name: "GPT-4o Mini" },
 
-    // GPT-4 family
-    { id: "gpt-4-turbo", name: "GPT-4 Turbo" },
-    { id: "gpt-4-turbo-preview", name: "GPT-4 Turbo (Preview)" },
-    { id: "gpt-4", name: "GPT-4" },
+    // // GPT-4 family
+    // { id: "gpt-4-turbo", name: "GPT-4 Turbo" },
+    // { id: "gpt-4-turbo-preview", name: "GPT-4 Turbo (Preview)" },
+    // { id: "gpt-4", name: "GPT-4" },
 
-    // GPT-3.5 family
-    { id: "gpt-3.5-turbo", name: "GPT-3.5 Turbo" },
+    // // GPT-3.5 family
+    // { id: "gpt-3.5-turbo", name: "GPT-3.5 Turbo" },
 
-    // GPT-5.x family (if available on your API)
-    { id: "gpt-5.2-chat-latest", name: "GPT-5.2 Instant (chat-latest)" },
-    { id: "gpt-5.2", name: "GPT-5.2 (Thinking)" },
-    { id: "gpt-5.2-pro", name: "GPT-5.2 Pro" },
-    { id: "gpt-5", name: "GPT-5" },
-    { id: "gpt-5-nano", name: "GPT-5 Nano" },
-    { id: "gpt-5.1", name: "GPT-5.1" },
+    // // GPT-5.x family (if available on your API)
+    // { id: "gpt-5.2-chat-latest", name: "GPT-5.2 Instant (chat-latest)" },
+    // { id: "gpt-5.2", name: "GPT-5.2 (Thinking)" },
+    // { id: "gpt-5.2-pro", name: "GPT-5.2 Pro" },
+    // { id: "gpt-5", name: "GPT-5" },
+    // { id: "gpt-5-nano", name: "GPT-5 Nano" },
+    // { id: "gpt-5.1", name: "GPT-5.1" },
 
-    // GPT-4.1 family
-    { id: "gpt-4.1", name: "GPT-4.1" },
-    { id: "gpt-4.1-mini", name: "GPT-4.1 Mini" },
-    { id: "gpt-4.1-nano", name: "GPT-4.1 Nano" }
+    // // GPT-4.1 family
+    // { id: "gpt-4.1", name: "GPT-4.1" },
+    // { id: "gpt-4.1-mini", name: "GPT-4.1 Mini" },
+    // { id: "gpt-4.1-nano", name: "GPT-4.1 Nano" }
   ]
 };
 

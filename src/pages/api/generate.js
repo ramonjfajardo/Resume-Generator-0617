@@ -88,8 +88,13 @@ export default async function handler(req, res) {
 
     async function tryResumeJson(userPrompt, label) {
       const resp = await callAI(userPrompt, provider, model, maxTokens, aiRetries, aiTimeout, aiOpts);
-      console.log(`[resume AI ${label}] stop=${resp.stop_reason} out=${resp.usage?.output_tokens}`);
-      const raw = resp.content[0]?.text ?? "";
+      if (!resp) {
+        throw new Error("AI provider returned no response");
+      }
+      console.log(
+        `[resume AI ${label}] stop=${resp.stop_reason ?? "unknown"} out=${resp.usage?.output_tokens ?? "unknown"}`
+      );
+      const raw = resp.content?.[0]?.text ?? "";
       if (isAiRefusal(raw)) {
         throw new Error("AI refused to generate resume. Try a shorter job description.");
       }
@@ -110,9 +115,9 @@ export default async function handler(req, res) {
       !attempt.ok &&
       (attempt.reason === "parse" ||
         attempt.reason === "shape" ||
-        attempt.resp.stop_reason === "max_tokens" ||
-        attempt.resp.stop_reason === "length" ||
-        attempt.resp.stop_reason === "content_filter");
+        attempt.resp?.stop_reason === "max_tokens" ||
+        attempt.resp?.stop_reason === "length" ||
+        attempt.resp?.stop_reason === "content_filter");
 
     if (!attempt.ok && retry && maxAttempts >= 2) {
       attempt = await tryResumeJson(makeConcisePrompt(prompt), "concise");

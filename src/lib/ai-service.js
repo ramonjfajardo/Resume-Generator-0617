@@ -102,6 +102,10 @@ async function callClaude(promptOrMessages, model, maxTokens, retries, timeoutMs
         )
       ]);
 
+      if (!response) {
+        throw new Error("Claude returned no response");
+      }
+
       // Normalize response format
       return {
         provider: "claude",
@@ -193,8 +197,12 @@ async function callOpenAI(promptOrMessages, model, maxTokens, retries, timeoutMs
         response = await runCreate(false);
       }
 
-      const rawText = response.choices[0]?.message?.content;
-      const finishReason = response.choices[0]?.finish_reason;
+      if (!response) {
+        throw new Error("OpenAI returned no response");
+      }
+
+      const rawText = response.choices?.[0]?.message?.content;
+      const finishReason = response.choices?.[0]?.finish_reason;
 
       // Normalize response format to match Claude's structure
       return {
