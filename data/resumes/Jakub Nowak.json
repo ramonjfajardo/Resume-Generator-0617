@@ -1,0 +1,43 @@
+{
+  "name": "Jakub Nowak",
+  "email": "jakub.work1@outlook.com",
+  "phone": "",
+  "location": "Wrocław, Lower Silesian, Poland",
+  "postalCode": "50-550",
+  "linkedin": "https://www.linkedin.com/in/jakub-nowak-22a329417/",
+  "github": "",
+  "website": "",
+  
+  "experience": [
+    {
+      "company": "Endava",
+      "title": "Senior Software Engineer",
+      "location": "New York, US",
+      "start_date": "09/2023",
+      "end_date": "Present"
+    },
+    {
+      "company": "Grid Dynamics",
+      "title": "Software Engineer",
+      "location": "Florida, US",
+      "start_date": "09/2018",
+      "end_date": "07/2023"
+    },
+    {
+      "company": "Got It Vietnam",
+      "title": "Junior Software Engineer",
+      "location": "New York, US",
+      "start_date": "02/2016",
+      "end_date": "08/2018"
+    }
+  ],
+  
+  "education": [
+    {
+      "degree": "Bachelor's degree in Computer Science",
+      "school": "Industrial University of Ho Chi Minh City",
+      "start_year": "2011",
+      "end_year": "2015"
+    }
+  ]
+}
