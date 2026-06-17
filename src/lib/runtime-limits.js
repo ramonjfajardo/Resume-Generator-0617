@@ -40,14 +40,15 @@ export function aiGenerateMaxAttempts() {
 }
 
 export function aiCallTimeoutMs() {
-  return isVercelDeployment() ? 90_000 : 180_000;
+  // Keep Vercel AI calls within the 60s function limit on Hobby deployments.
+  return isVercelDeployment() ? 40_000 : 180_000;
 }
 
 export function pdfRenderTimeoutMs({ ai = false } = {}) {
   if (!isVercelDeployment()) {
     return ai ? 120_000 : 180_000;
   }
-  return 45_000;
+  return ai ? 10_000 : 20_000;
 }
 
 export function heavyApiDisabledMessage(feature) {
