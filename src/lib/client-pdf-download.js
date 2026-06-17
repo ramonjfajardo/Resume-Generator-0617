@@ -108,5 +108,5 @@ const vercelLimited =
 /** Manual PDF — must be longer than server render timeout (see MANUAL_PDF_RENDER_TIMEOUT_MS). */
 export const MANUAL_GENERATE_TIMEOUT_MS = vercelLimited ? 70_000 : 210_000;
 
-/** AI + PDF — allow several minutes. */
-export const AI_GENERATE_TIMEOUT_MS = vercelLimited ? 120_000 : 600_000;
+/** AI + PDF — keep within the 120s server budget for Vercel deployments. */
+export const AI_GENERATE_TIMEOUT_MS = 120_000;

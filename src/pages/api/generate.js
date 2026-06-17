@@ -26,10 +26,11 @@ import {
   aiGenerateMaxAttempts,
   heavyApiDisabledMessage,
   isAiGenerateEnabled,
+  isVercelDeployment,
 } from "@/lib/runtime-limits";
 
-const RESUME_MAX_TOKENS_OPENAI = 16384;
-const RESUME_MAX_TOKENS_CLAUDE = 8192;
+const RESUME_MAX_TOKENS_OPENAI = isVercelDeployment() ? 4096 : 8192;
+const RESUME_MAX_TOKENS_CLAUDE = isVercelDeployment() ? 2048 : 4096;
 
 function maxOutTokens(provider) {
   return provider === "openai" ? RESUME_MAX_TOKENS_OPENAI : RESUME_MAX_TOKENS_CLAUDE;

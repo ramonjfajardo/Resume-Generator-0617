@@ -31,7 +31,7 @@ export function skipGoogleDriveUpload() {
 }
 
 export function aiCallRetries() {
-  return isVercelDeployment() ? 0 : 2;
+  return isVercelDeployment() ? 0 : 1;
 }
 
 /** Max AI attempts in /api/generate (full → concise → repair). */
@@ -40,15 +40,14 @@ export function aiGenerateMaxAttempts() {
 }
 
 export function aiCallTimeoutMs() {
-  // Keep Vercel AI calls within the 60s function limit on Hobby deployments.
-  return isVercelDeployment() ? 40_000 : 180_000;
+  return isVercelDeployment() ? 70_000 : 180_000;
 }
 
 export function pdfRenderTimeoutMs({ ai = false } = {}) {
   if (!isVercelDeployment()) {
     return ai ? 120_000 : 180_000;
   }
-  return ai ? 10_000 : 20_000;
+  return ai ? 40_000 : 45_000;
 }
 
 export function heavyApiDisabledMessage(feature) {

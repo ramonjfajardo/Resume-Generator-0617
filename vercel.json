@@ -1,7 +1,7 @@
 {
   "functions": {
     "src/pages/api/generate.js": {
-      "maxDuration": 180,
+      "maxDuration": 120,
       "memory": 1024
     },
     "src/pages/api/generate-manual.js": {

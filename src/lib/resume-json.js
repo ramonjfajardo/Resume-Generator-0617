@@ -7,7 +7,7 @@ const JSONC_OPTS = { allowTrailingComma: true };
 export function makeConcisePrompt(fullPrompt) {
   return (
     fullPrompt +
-    "\n\n**RETRY:** Return valid JSON only. Follow every rule above exactly — do not shorten bullets, reduce word counts, or drop skills."
+    "\n\n**RETRY:** Return valid JSON only. Use the same JSON schema and complete the resume with concise bullet points only."
   );
 }
 
