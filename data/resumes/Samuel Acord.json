@@ -1,0 +1,52 @@
+{
+  "name": "Samuel Acord",
+  "email": "samuel.louis.acord@outlook.com",
+  "phone": "+1 512 710 3215",
+  "location": "Jacksonville, Florida, United States",
+  "address": "6641 Pine Summit Dr",
+  "postalCode": "32211",
+  "linkedin": "https://linkedin.com/in/sue-acord-24686447",
+  "linkedinShow": "show",
+  "website": "",
+  "github": "https://github.com/softwarecore1995",
+  "experience": [
+    {
+      "company": "Hexagon AB",
+      "location": "United States",
+      "title": "Senior Software Engineer",
+      "start_date": "Jan 2024",
+      "end_date": "Present"
+    },
+    {
+      "company": "Cargo Express Freight Corp",
+      "location": "California, United States",
+      "title": "Senior Software Engineer",
+      "start_date": "Jun 2019",
+      "end_date": "Dec 2023"
+    },
+    {
+      "company": "DoorDash",
+      "location": "California, United States",
+      "title": "Software Engineer",
+      "start_date": "Sep 2016",
+      "end_date": "May 2019"
+    },
+    {
+      "company": "Globant",
+      "location": "Florida, United States",
+      "title": "Junior Software Engineer",
+      "start_date": "Jul 2013",
+      "end_date": "Aug 2016"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Information Technology",
+      "school": "Southern Polytechnic State University",
+      "start_year": "2009",
+      "end_year": "2013"
+    }
+  ],
+  "certifications": [],
+  "resumeStyle": "bold-split"
+}

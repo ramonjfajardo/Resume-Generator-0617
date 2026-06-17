@@ -1,0 +1,24 @@
+{
+  "functions": {
+    "src/pages/api/generate.js": {
+      "maxDuration": 60,
+      "memory": 1024
+    },
+    "src/pages/api/generate-manual.js": {
+      "maxDuration": 60,
+      "memory": 1024
+    },
+    "src/pages/api/preview.js": {
+      "maxDuration": 30,
+      "memory": 1024
+    },
+    "src/pages/api/manual-prompt.js": {
+      "maxDuration": 10,
+      "memory": 256
+    },
+    "src/pages/api/profiles/[id].js": {
+      "maxDuration": 10,
+      "memory": 256
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+    "name": "Edward Alonzo Reyes",
+    "email": "edw.rey@outlook.com",
+    "phone": "+1 (346) 301-4296",
+    "location": "San Benito, TX",
+    "address": "571 Perkins St",
+    "postalCode": "78586",
+    "linkedin": "https://www.linkedin.com/in/edward-reyes-io",
+    "linkedinShow": "show",
+    "website": "",
+    "github": "https://github.com/softwarecore1995",
+    "experience": [
+      {
+        "company": "GuideIT",
+        "location": "Remote | Dallas, TX",
+        "title": "Senior AI Engineer",
+        "start_date": "Mar 2021",
+        "end_date": "Jan 2026"
+      },
+      {
+        "company": "Lilt",
+        "location": "Remote | Emeryville, CA",
+        "title": "Software Developer & AI Engineer",
+        "start_date": "Feb 2019",
+        "end_date": "Jan 2021"
+      },
+      {
+        "company": "Clarifai",
+        "location": "New York, NY",
+        "title": "Software Developer",
+        "start_date": "Sep 2016",
+        "end_date": "Jan 2019"
+      },
+      {
+        "company": "HNTB",
+        "location": "Kansas City, MO",
+        "title": "Junior Software Engineer",
+        "start_date": "Jun 2015",
+        "end_date": "Aug 2016"
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science in Computer Science",
+        "school": "The College of Saint Rose",
+        "start_year": "2011",
+        "end_year": "2015"
+      }
+    ],
+    "certifications": [],
+    "resumeStyle": "academic-left"
+  }

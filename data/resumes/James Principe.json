@@ -1,0 +1,56 @@
+{
+    "name": "James Principe",
+    "email": "james.principe99@outlook.com",
+    "phone": "+63 932 466 3887",
+    "location": "Trece Martires, Calabarzon, Philippines",
+    "linkedinShow": "show",
+    "title": "Senior Software Engineer",
+    "address": "Block 2, Lot 25–26, Muskrat Street, Regina Ville Executive Subdivision, Barangay De Ocampo",
+    "postalCode": "4109",
+    "linkedin": "https://www.linkedin.com/in/james-louie-prinicipe-60a819404",
+    "website": "",
+    "github": "https://github.com/softwarecore1995",
+    
+    "experience": [
+      {
+        "company": "Kiggla",
+        "title": "Senior Software Engineer",
+        "location": "United States (Remote)",
+        "start_date": "April 2025",
+        "end_date": "Present"
+      },
+      {
+        "company": "Lebara",
+        "title": "Software Engineer",
+        "location": "United Kingdom (Remote)",
+        "start_date": "June 2019",
+        "end_date": "March 2025"
+      },
+      {
+        "company": "LANEX Australia",
+        "title": "Full Stack Engineer",
+        "location": "Australia (Remote)",
+        "start_date": "May 2018",
+        "end_date": "June 2019"
+      },
+      {
+        "company": "cynapse.ai",
+        "title": "Junior Software Engineer",
+        "location": "Singapore (Remote)",
+        "start_date": "October 2017",
+        "end_date": "April 2018"
+      }
+    ],
+    
+    "education": [
+      {
+        "degree": "Bachelor's Degree, Computer Science",
+        "school": "Kyoto University",
+        "start_year": "2013",
+        "end_year": "2017"
+      }
+    ],
+    
+    "certifications": [],
+    "resumeStyle": "consultant"
+}

@@ -1,0 +1,48 @@
+{
+    "name": "Angelica Penalba",
+    "email": "angelica.penalba.dev@outlook.com",
+    "phone": "+63 927 885 6115",
+    "location": "Trece Martires, Calabarzon, Philippines",
+    "title": "Senior Software Engineer",
+    "address": "",
+    "postalCode": "4109",
+    "linkedin": "https://www.linkedin.com/in/angelica-april-pe%C3%B1alba-4a59a5292/",
+    "website": "",
+    "github": "https://github.com/topazcoder",
+    
+    "experience": [
+      {
+        "company": "Keedian",
+        "title": "Senior Software Engineer",
+        "location": "Florida, United States",
+        "start_date": "Aug 2024",
+        "end_date": "Present"
+      },
+      {
+        "company": "Humana",
+        "title": "Senior Software Engineer",
+        "location": "Florida, United States",
+        "start_date": "Nov 2020",
+        "end_date": "Jul 2024"
+      },
+      {
+        "company": "Lebara",
+        "title": "Software Engineer",
+        "location": "United Kingdom",
+        "start_date": "Oct 2017",
+        "end_date": "Oct 2020"
+      }
+    ],
+    
+    "education": [
+      {
+        "degree": "Bachelor's Degree, Computer Science",
+        "school": "De La Salle University - Dasmariñas",
+        "start_year": "2005",
+        "end_year": "2009"
+      }
+    ],
+    
+    "certifications": [],
+    "resumeStyle": "executive-left"
+}

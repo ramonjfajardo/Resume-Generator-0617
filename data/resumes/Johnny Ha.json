@@ -1,0 +1,57 @@
+{
+    "name": "Johnny Ha",
+    "title": "Senior Software Engineer",
+    "email": "johnny.ha.git@outlook.com",
+    "phone": "+1 (858) 428-1794",
+    "location": "Los Angeles, CA",
+    "address": "527 N Colonia De Los Cedros #64",
+    "postalCode": "92127",
+    "linkedin": "https://www.linkedin.com/in/johnny-ha-7710b4303/",
+    "linkedinShow": "show",
+    "website": "",
+    "github": "https://github.com/monsterdev914",
+    
+    "experience": [
+      {
+        "company": "Uber",
+        "title": "Staff Software Engineer",
+        "location": "Los Angeles County, California, United States (Remote)",
+        "start_date": "Mar 2023",
+        "end_date": "Jul 2025"
+      },
+      {
+        "company": "E-Commerce Business (Self-employed)",
+        "title": "Full Stack Software Engineer",
+        "location": "Los Angeles County, California, United States (Hybrid)",
+        "start_date": "Dec 2020",
+        "end_date": "Jan 2023"
+      },
+      {
+        "company": "T-Mobile",
+        "title": "Full Stack Engineer / Technical Sales Engineer",
+        "location": "Alhambra, California, United States (On-site)",
+        "start_date": "Jun 2018",
+        "end_date": "Dec 2020"
+      },
+      {
+        "company": "AT&T",
+        "title": "Full-stack Developer",
+        "location": "Alhambra, California, United States (On-site)",
+        "start_date": "Jul 2016",
+        "end_date": "Jun 2018"
+      }
+    ],
+    
+    "education": [
+      {
+        "degree": "Bachelor's degree in Computer Science and Business Administration",
+        "school": "California State University, Los Angeles",
+        "start_year": "2012",
+        "end_year": "2016"
+      }
+    ],
+    
+    "certifications": [],
+    
+    "resumeStyle": "creative"
+}

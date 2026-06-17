@@ -1,0 +1,55 @@
+{
+    "name": "James Davis",
+    "email": "james.d1995@outlook.com",
+    "phone": "+1(281)752-6745",
+    "location": "Diboll, TX",
+    "address": "711 Booker Street",
+    "postalCode": "75902",
+    "linkedin": "https://www.linkedin.com/in/james-davis-56a2723a2",
+    "linkedinShow": "show",
+    "website": "",
+    "github": "https://github.com/jamesdavis123-tech",
+    
+    "experience": [
+    {
+        "company": "Hexagon AB",
+        "title": "Senior Software Developer",
+        "location": "",
+        "start_date": "Mar 2025",
+        "end_date": "Present"
+      },
+      {
+        "company": "Guidehouse",
+        "title": "Senior Software Developer",
+        "location": "Remote (Houston, TX)",
+        "start_date": "Mar 2022",
+        "end_date": "Mar 2025"
+      },
+      {
+        "company": "Boltive",
+        "title": "Software Engineer",
+        "location": "",
+        "start_date": "Aug 2018",
+        "end_date": "Feb 2022"
+      },
+      {
+        "company": "Google",
+        "title": "Software Developer | Intern",
+        "location": "",
+        "start_date": "Sep 2017",
+        "end_date": "Jul 2018"
+      }
+    ],
+    
+    "education": [
+      {
+        "degree": "Master of Science - MS",
+        "school": "The College of Saint Rose",
+        "start_year": "2015",
+        "end_year": "2017"
+      }
+    ],
+    
+    "certifications": [],
+    "resumeStyle": "modern"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Manuel Vargas",
+  "email": "manuel.vargas.code@outlook.com",
+  "phone": "+52 1 951 567 1391",
+  "location": "Ciudad de México, México",
+  "address": " Municipio Libre esquina División del Norte, Colonia Santa Cruz Atoyac",
+  "postalCode": "03310",
+  "linkedin": "https://www.linkedin.com/in/manuel-vargas-85a239392",
+  "linkedinShow": "show",
+  "website": "",
+  "github": "https://github.com/softwarecore1995",
+  "experience": [
+    {
+      "company": "Kiggla",
+      "location": "Remote | Miami, FL",
+      "title": "Senior Software Engineer",
+      "start_date": "Mar 2022",
+      "end_date": "Present"
+    },
+    {
+      "company": "Cargo Express Freight Corp",
+      "location": "Remote | Anaheim, CA",
+      "title": "Senior Software Engineer",
+      "start_date": "Sep 2019",
+      "end_date": "Mar 2022"
+    },
+    {
+      "company": "Nearpod",
+      "location": "Dania Beach, FL",
+      "title": "Software Engineer",
+      "start_date": "Jul 2016",
+      "end_date": "Sep 2019"
+    },
+    {
+      "company": "OfficeRnD",
+      "location": "Miami, FL",
+      "title": "Software Engineer",
+      "start_date": "Jun 2015",
+      "end_date": "Jun 2016"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "school": "The College of Saint Rose (NY)",
+      "start_year": "2011",
+      "end_year": "2015"
+    }
+  ],
+  "certifications": [],
+  "resumeStyle": "standard-left"
+}

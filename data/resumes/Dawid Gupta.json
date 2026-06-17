@@ -1,0 +1,47 @@
+{
+    "name": "Dawid Gupta",
+    "email": "dawid.gupta797@outlook.com",
+    "title": "Senior Software Engineer",
+    "location": "Warsaw, Mazowieckie, Poland",
+    "linkedin": "https://www.linkedin.com/in/dawid-gupta-950040400/",
+    "linkedinShow": "show",
+    "github": "https://github.com/dawidgupta797",
+    "postalCode": "02-676",
+    "phone": "+48 512 839 324",
+    "education": [
+      {
+        "degree": "Bachelor of Science in Information Technology",
+        "school": "Warsaw University of Technology",
+        "start_year": "2009",
+        "end_year": "2013"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Sibitalent Corp",
+        "title": "Senior Software Developer",
+        "start_date": "Jan 2025",
+        "end_date": "Present"
+      },
+      {
+        "company": "Hexagon AB",
+        "title": "Software Engineer",
+        "start_date": "Feb 2019",
+        "end_date": "Dec 2024"
+      },
+      {
+        "company": "ZAG Technical Services",
+        "title": "Software Engineer",
+        "start_date": "Sep 2014",
+        "end_date": "Jan 2019"
+      },
+      {
+        "company": "Netguru",
+        "title": "Software Developer",
+        "start_date": "Oct 2013",
+        "end_date": "Aug 2014"
+      }
+    ],
+    "resumeStyle": "professional"
+}
+  
