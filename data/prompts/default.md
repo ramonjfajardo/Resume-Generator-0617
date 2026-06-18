@@ -25,12 +25,15 @@ RULES:
 
 1. Use {{resumeTitle}} and the candidate's most recent job title from work history to determine the JSON "title".
 2. Normalize titles by removing seniority words such as Senior, Lead, Principal, Staff, Junior, Entry-Level, and then compare core role types.
-3. If the candidate's recent title core role matches the JD primary role type, format title as:
+3. If the recent title core role matches the JD primary role type, format "title" as:
    [Most Recent Title] | Tech1 | Tech2 | Tech3 | Tech4
-4. If the titles do not match, format title as:
+4. If the titles do not match, format "title" as:
    [Most Recent Title] | [JD Specialization] | Tech1 | Tech2 | Tech3 | Tech4
-5. JD specializations should align to the JD primary focus: Frontend Specialist, Backend Architect, Full Stack Experience, DevOps Specialist, AI Engineer, Quality Assurance Lead, Infrastructure Lead, etc.
-6. Use 4–6 most important technologies/tools/platforms from the JD in the title. Separate by " | ".
+5. Use exactly one specialization phrase only when the core role does not match. Choose one from: Frontend Specialist, Backend Architect, Full Stack Experience, DevOps Specialist, AI Engineer, Quality Assurance Lead, Infrastructure Lead.
+6. Use 4–6 most important technologies/tools/platforms from the JD in the title. Separate segments with " | ".
+7. Do not add extra descriptors, adjectives, company names, or role summaries. The JSON "title" field must be a clean, compact string in the formats above.
+Example: "Software Engineer | React | TypeScript | AWS | Kubernetes"
+Example mismatch: "Software Engineer | AI Engineer | Python | TensorFlow | Kubernetes | GCP"
 
 SUMMARY:
 

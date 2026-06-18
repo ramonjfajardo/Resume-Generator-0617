@@ -43,7 +43,7 @@ export function buildResumePdfData(profileData, resumeContent, presentation = nu
   const { phone, linkedin } = getContactForPdf(profileData);
   return {
     name: profileData.name,
-    title: profileData.title,
+    title: profileData.title || resumeContent.title,
     email: profileData.email,
     phone,
     location: profileData.location,

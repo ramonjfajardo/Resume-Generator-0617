@@ -9,6 +9,7 @@ import FilenameFields from "@/components/profile/FilenameFields";
 import { getProfileFormStyles } from "@/components/profile/profile-form-styles";
 import { buildManualPrompt } from "@/lib/profile-prompt";
 import DeploymentNotice, { isManualPdfEnabledClient } from "@/components/profile/DeploymentNotice";
+import { extractJsonObjectString, parseResumeJsonString, validateResumeShape } from "@/lib/resume-json";
 
 export default function ManualProfileGeneratorView({
   profileSlug,
@@ -81,6 +82,23 @@ export default function ManualProfileGeneratorView({
   const handleGenerate = async () => {
     if (!chatgptResponse.trim()) {
       alert("Paste the AI response (JSON) first");
+      return;
+    }
+
+    const jsonStr = extractJsonObjectString(chatgptResponse.trim());
+    const parsed = parseResumeJsonString(jsonStr);
+    if (!parsed.ok) {
+      alert(
+        `Invalid JSON before PDF generation: ${parsed.error}. Ensure the pasted response is a complete JSON object and not a markdown block.`
+      );
+      return;
+    }
+
+    const shape = validateResumeShape(parsed.data, expectedJobCount);
+    if (!shape.ok) {
+      alert(
+        `Invalid resume JSON shape: ${shape.reason}. Your profile expects ${expectedJobCount} experience entries with non-empty details.`
+      );
       return;
     }
 
@@ -283,6 +301,11 @@ export default function ManualProfileGeneratorView({
               rows={8}
               style={{ ...styles.textarea, fontFamily: "monospace", fontSize: "12px" }}
             />
+            {expectedJobCount > 0 && (
+              <p style={{ marginTop: "8px", fontSize: "12px", color: colors.textMuted, lineHeight: 1.4 }}>
+                Paste complete valid JSON with exactly {expectedJobCount} experience entries in the same order as the profile work history.
+              </p>
+            )}
           </div>
 
           <GoogleDriveConnect colors={colors} />
