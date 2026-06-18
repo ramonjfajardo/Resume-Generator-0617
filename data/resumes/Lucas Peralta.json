@@ -48,5 +48,7 @@
       "start_year": "2012",
       "end_year": "2016"
     }
-  ]
+  ],
+
+  "resumeStyle": "standard"
 }

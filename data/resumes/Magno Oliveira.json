@@ -60,5 +60,7 @@
       "start_year": "Jan 2023",
       "end_year": "Dec 2024"
     }
-  ]
+  ],
+
+  "resumeStyle": "consultant"
 }
