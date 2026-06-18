@@ -1,42 +1,43 @@
 {
   "name": "Lucas Ariel Peralta",
+  "title": "Senior Software Engineer",
   "email": "lucasperalta.work@outlook.com",
   "phone": "+54 9 2665 30-1753",
   "location": "Merlo, San Luis, Argentina",
   "postalCode": "5881",
-  "linkedinShow": "",
   "linkedin": "https://www.linkedin.com/in/lucas-peralta-461693405/",
-  "github": "https://github.com/lucas?tab=repositories",
+  "linkedinShow": "",
+  "github": "",
   "website": "",
   
   "experience": [
     {
       "company": "TECLA",
       "title": "Senior Software Engineer",
-      "location": "Florida, US",
-      "start_date": "09/2025",
+      "location": "Texas, US",
+      "start_date": "Sep 2025",
       "end_date": "Present"
     },
     {
       "company": "Baufest",
       "title": "Software Engineer",
       "location": "Buenos Aires, AR",
-      "start_date": "08/2025",
-      "end_date": "07/2023"
+      "start_date": "Jul 2023",
+      "end_date": "Aug 2025"
     },
     {
       "company": "Globant",
       "title": "Software Engineer",
       "location": "Buenos Aires, AR",
-      "start_date": "01/2018",
-      "end_date": "05/2023"
+      "start_date": "Jan 2018",
+      "end_date": "May 2023"
     },
     {
-    "company": "Globant",
-    "title": "Junior Software Engineer",
-    "location": "Buenos Aires, AR",
-    "start_date": "11/2016",
-    "end_date": "02/2017"
+      "company": "Globant",
+      "title": "Junior Software Engineer",
+      "location": "Buenos Aires, AR",
+      "start_date": "Nov 2016",
+      "end_date": "Feb 2017"
     }
   ],
   

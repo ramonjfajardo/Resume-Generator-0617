@@ -1,11 +1,12 @@
 {
   "name": "Jakub Nowak",
+  "title": "Senior Software Engineer ",
   "email": "jakub.work1@outlook.com",
   "phone": "",
   "location": "Wrocław, Lower Silesian, Poland",
   "postalCode": "50-550",
-  "linkedinShow": "",
   "linkedin": "https://www.linkedin.com/in/jakub-nowak-22a329417/",
+  "linkedinShow": "",
   "github": "",
   "website": "",
   
@@ -14,22 +15,22 @@
       "company": "Endava",
       "title": "Senior Software Engineer",
       "location": "New York, US",
-      "start_date": "09/2023",
+      "start_date": "Sep 2024",
       "end_date": "Present"
     },
     {
       "company": "Grid Dynamics",
       "title": "Software Engineer",
-      "location": "Florida, US",
-      "start_date": "09/2018",
-      "end_date": "07/2023"
+      "location": "California, US",
+      "start_date": "Sep 2018",
+      "end_date": "Jul 2024"
     },
     {
       "company": "Got It Vietnam",
       "title": "Junior Software Engineer",
-      "location": "New York, US",
-      "start_date": "02/2016",
-      "end_date": "08/2018"
+      "location": "Ho Chi Minh City, Vietnam",
+      "start_date": "Feb 2016",
+      "end_date": "Aug 2018"
     }
   ],
   

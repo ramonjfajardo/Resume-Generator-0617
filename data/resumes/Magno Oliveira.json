@@ -1,11 +1,12 @@
 {
   "name": "Magno Oliveira",
+  "title": "Senior Software Engineer",
   "email": "magnow.work@outlook.com",
   "phone": "+55 83 8178-6780",
   "location": "Sousa, Paraíba, Brazil",
   "postalCode": "58808-510",
-  "linkedinShow": "show",
   "linkedin": "https://www.linkedin.com/in/magno-werbett-de-andrade-oliveira-707a9350/",
+  "linkedinShow": "show",
   "github": "",
   "website": "",
   
@@ -14,29 +15,29 @@
       "company": "BairesDev",
       "title": "Senior Software Engineer",
       "location": "California, US",
-      "start_date": "08/2025",
+      "start_date": "Aug 2025",
       "end_date": "Present"
     },
     {
       "company": "Encora",
       "title": "Software Engineer",
-      "location": "Arizona, US",
-      "start_date": "05/2022",
-      "end_date": "07/2025"
+      "location": "California, US",
+      "start_date": "May 2022",
+      "end_date": "Jul 2025"
     },
     {
       "company": "SOFTEC INFORMATICA LTDA",
       "title": "Software Engineer",
       "location": "Paraíba, Brazil",
-      "start_date": "01/2018",
-      "end_date": "03/2022"
+      "start_date": "Jan 2018",
+      "end_date": "Mar 2022"
     },
     {
       "company": "SOFTEC INFORMATICA LTDA",
       "title": "Junior Software Engineer",
       "location": "Paraíba, Brazil",
-      "start_date": "01/2015",
-      "end_date": "12/2017"
+      "start_date": "Jan 2015",
+      "end_date": "Dec 2017"
     }
   ],
   
@@ -44,20 +45,20 @@
     {
       "degree": "Bachelor's Degree in Computer Science Education",
       "school": "Universidade Federal da Paraíba",
-      "start_year": "02/2013",
-      "end_year": "12/2017"
+      "start_year": "Feb 2013",
+      "end_year": "Dec 2017"
     },
     {
       "degree": "Postgraduate Degree (Lato Sensu) in Full Stack Web Development",
       "school": "Anhanguera Educacional",
-      "start_year": "02/2023",
-      "end_year": "10/2023"
+      "start_year": "Feb 2013",
+      "end_year": "Oct 2023"
     },
     {
       "degree": "Bachelor's Degree in Mathematics Education",
       "school": "UNOPAR - Universidade Norte do Paraná",
-      "start_year": "01/2023",
-      "end_year": "12/2024"
+      "start_year": "Jan 2023",
+      "end_year": "Dec 2024"
     }
   ]
 }
