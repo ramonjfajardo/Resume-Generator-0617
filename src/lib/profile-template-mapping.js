@@ -1,22 +1,22 @@
 // Profile slug → resume JSON, PDF template, and prompt file (data/prompts/{prompt}.txt).
 // To change generated content for a profile, edit only that profile's prompt file.
 export const profileTemplateMapping = {
-    "vm1": {
+    "jn": {
         resume: "Jakub Nowak",
         template: "Resume-Modern-Green",
         prompt: "Jakub Nowak",
     },
-    "ok1": {
+    "kj": {
         resume: "Krzysztof Jankowski",
         template: "Resume-Modern-Green",
         prompt: "Krzysztof Jankowski",
     },
-    "samuelacord": {
+    "lp": {
         resume: "Lucas Peralta",
         template: "Resume-Modern-Green",
         prompt: "Lucas Peralta",
     },
-    "al1": {
+    "mo": {
         resume: "Magno Oliveira",
         template: "Resume-Modern-Green",
         prompt: "Magno Oliveira",
