@@ -26,14 +26,15 @@ RULES:
 1. Use {{resumeTitle}} and the candidate's most recent job title from work history to determine the JSON "title".
 2. Normalize titles by removing seniority words such as Senior, Lead, Principal, Staff, Junior, Entry-Level, and then compare core role types.
 3. If the recent title core role matches the JD primary role type, format "title" as:
-   [Most Recent Title] | Tech1 | Tech2 | Tech3 | Tech4
+   [Most Recent Title] | Tech1 | Tech2 | Tech3
 4. If the titles do not match, format "title" as:
-   [Most Recent Title] | [JD Specialization] | Tech1 | Tech2 | Tech3 | Tech4
+   [Most Recent Title] | [JD Specialization] | Tech1 | Tech2 | Tech3
 5. Use exactly one specialization phrase only when the core role does not match. Choose one from: Frontend Specialist, Backend Architect, Full Stack Experience, DevOps Specialist, AI Engineer, Quality Assurance Lead, Infrastructure Lead.
 6. Use 4–6 most important technologies/tools/platforms from the JD in the title. Separate segments with " | ".
 7. Do not add extra descriptors, adjectives, company names, or role summaries. The JSON "title" field must be a clean, compact string in the formats above.
-Example: "Software Engineer | React | TypeScript | AWS | Kubernetes"
-Example mismatch: "Software Engineer | AI Engineer | Python | TensorFlow | Kubernetes | GCP"
+Example: "Software Engineer | React | TypeScript | AWS "
+Example mismatch: "Software Engineer | AI Engineer | Python | TensorFlow"
+8. important: The targeted ATS score is at least 95.
 
 SUMMARY:
 
@@ -43,11 +44,11 @@ SUMMARY:
 - Sentence 3: Track record in [domain keyword] with an achievement and a metric.
 - Sentence 4: Proficient in another 3–4 JD techs/tools.
 - Sentence 5: Soft-skill sentence referencing Agile, leadership, collaboration, or stakeholder delivery.
-- Sentence 6 (optional): Focus on 2–3 JD skill areas and scalable/reliable solutions.
+- Sentence 6 (optional): Focus on 2–3 JD skill areas and scalable/reliable solutions, and focus on Engligh proficiency.
 
 SKILLS:
 
-- Provide 5–7 categories and 60–80 total skills.
+- Provide 5–7 categories and 75–100 total skills.
 - Prefer categories such as Programming Languages, Frontend, Backend, Database, Cloud/Platform, DevOps/Infrastructure, Tools/Testing, and Industry & Domain.
 - Use approximately 70% exact JD keywords and 30% complementary skills.
 - Capitalize first letter of each skill phrase.
@@ -57,14 +58,14 @@ SKILLS:
 EXPERIENCE:
 
 - Provide exactly {{experienceCount}} entries in the same order as work history.
-- Use 8 bullets for the most recent job, 7 for the next, 6 for the third, 5 for the fourth and older roles.
-- Each bullet must be 38–43 words long. Bullets under 38 words are invalid.
+- Use 7 bullets for the most recent job, 6 for the next, 5 for the third, 4 for the fourth and older roles.
+- Each bullet must be 30–40 words long. Bullets under 25 words are invalid.
 - Use action verbs such as Architected, Built, Designed, Developed, Engineered, Implemented, Integrated, Led, Optimized, Automated, Deployed, Scaled, Streamlined, Migrated, Refactored.
 - Do not use phrases like "Responsible for", "Worked on", "Helped with".
-- Each bullet should map to 1–3 high-priority JD requirements and include 2–4 exact JD keywords when relevant.
+- Each bullet include at least 1 JD requirements or JD keywords when relevant.
 - If job details are provided, derive bullets from those details and tailor them to the JD. Do not invent unrelated work.
 - If no details are provided, generate plausible JD-aligned bullets based on the title, company, and dates.
-- Include metrics in at least 6–8 bullets total, with 3–4 percent improvements and 2–3 scale metrics.
+- Include metrics in approximately 6–8 bullets total, with 3–4 percent improvements and 2–3 scale metrics.
 - Use realistic technologies that existed during the job dates.
 
 TECHNOLOGY DATE VALIDATION:
@@ -75,9 +76,8 @@ TECHNOLOGY DATE VALIDATION:
 ATS TARGETING:
 
 - Use exact JD phrases for required skills whenever possible.
-- Include every required JD keyword at least once across title, summary, skills, or experience.
-- Repeat the top 3–4 most important JD phrases naturally across summary, skills, and experience.
-- Add Industry & Domain category skills for the JD sector and workflow.
+- Include every required JD keyword and domain keywords at least once across title, summary, skills, or experience.
+- Important: The targeted ATS score is approximately 95%.
 
 IMPORTANT:
 
