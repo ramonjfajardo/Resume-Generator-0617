@@ -303,3 +303,4 @@ For technical issues or questions about the application, please refer to the cod
 ---
 
 **Built with ❤️ using Next.js, React PDF, and AI**
+end
