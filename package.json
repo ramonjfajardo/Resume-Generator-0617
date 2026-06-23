@@ -20,5 +20,9 @@
     },
     "engines": {
         "node": "20.x"
+    },
+    "devDependencies": {
+        "@fontsource/noto-sans": "^5.2.10",
+        "node-fetch": "^2.7.0"
     }
 }

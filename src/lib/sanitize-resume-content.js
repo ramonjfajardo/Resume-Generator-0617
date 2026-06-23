@@ -12,6 +12,14 @@ function trimText(value, maxLen) {
   return s.slice(0, maxLen - 1) + "…";
 }
 
+/** Convert accented characters to ASCII equivalents for PDF compatibility with standard fonts.
+ * This ensures location names like "Wrocław" render as "Wroclaw" instead of corrupted text.
+ */
+function normalizeAccents(text) {
+  if (typeof text !== "string") return text;
+  return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
 /** Strip markdown/HTML bold so PDF output is plain text only. */
 export function stripMarkdownBold(text) {
   if (typeof text !== "string") return text;
@@ -27,11 +35,15 @@ export function sanitizeResumeContentForPdf(resumeContent) {
   const out = { ...resumeContent };
 
   if (typeof out.title === "string") {
-    out.title = stripMarkdownBold(trimText(out.title, 120));
+    out.title = normalizeAccents(stripMarkdownBold(trimText(out.title, 120)));
   }
 
   if (typeof out.summary === "string") {
-    out.summary = stripMarkdownBold(trimText(out.summary, MAX_SUMMARY_CHARS));
+    out.summary = normalizeAccents(stripMarkdownBold(trimText(out.summary, MAX_SUMMARY_CHARS)));
+  }
+
+  if (typeof out.location === "string") {
+    out.location = normalizeAccents(out.location);
   }
 
   if (out.skills && typeof out.skills === "object") {
@@ -39,7 +51,7 @@ export function sanitizeResumeContentForPdf(resumeContent) {
     const entries = Object.entries(out.skills).slice(0, MAX_SKILL_CATEGORIES);
     for (const [cat, list] of entries) {
       skills[cat] = Array.isArray(list)
-        ? list.slice(0, MAX_SKILLS_PER_CATEGORY).map((s) => stripMarkdownBold(trimText(s, 60)))
+        ? list.slice(0, MAX_SKILLS_PER_CATEGORY).map((s) => normalizeAccents(stripMarkdownBold(trimText(s, 60))))
         : list;
     }
     out.skills = skills;
@@ -49,12 +61,25 @@ export function sanitizeResumeContentForPdf(resumeContent) {
     out.experience = out.experience.map((exp) => {
       if (!exp || typeof exp !== "object") return exp;
       const details = Array.isArray(exp.details)
-        ? exp.details.map((d) => stripMarkdownBold(trimText(d, MAX_BULLET_CHARS)))
+        ? exp.details.map((d) => normalizeAccents(stripMarkdownBold(trimText(d, MAX_BULLET_CHARS))))
         : exp.details;
       return {
         ...exp,
-        title: typeof exp.title === "string" ? stripMarkdownBold(trimText(exp.title, 120)) : exp.title,
+        title: typeof exp.title === "string" ? normalizeAccents(stripMarkdownBold(trimText(exp.title, 120))) : exp.title,
+        location: typeof exp.location === "string" ? normalizeAccents(exp.location) : exp.location,
+        company: typeof exp.company === "string" ? normalizeAccents(exp.company) : exp.company,
         details,
+      };
+    });
+  }
+
+  if (Array.isArray(out.education)) {
+    out.education = out.education.map((edu) => {
+      if (!edu || typeof edu !== "object") return edu;
+      return {
+        ...edu,
+        degree: typeof edu.degree === "string" ? normalizeAccents(edu.degree) : edu.degree,
+        school: typeof edu.school === "string" ? normalizeAccents(edu.school) : edu.school,
       };
     });
   }

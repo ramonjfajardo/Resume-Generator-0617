@@ -27,8 +27,8 @@ RULES:
    [Most Recent Title] | Tech1 | Tech2 | Tech3
 4. If the titles do not match, format "title" as:
    [Most Recent Title] | [JD Specialization] | Tech1 | Tech2 | Tech3
-5. Use exactly one specialization phrase only when the core role does not match. Choose one from: Frontend Specialist, Backend Architect, Full Stack Experience, DevOps Specialist, AI Engineer, Quality Assurance Lead, Infrastructure Lead.
-6. Use 4–6 most important technologies/tools/platforms from the JD in the title. Separate segments with " | ".
+5. Use exactly one specialization phrase only when the core role does not match. Choose one from: Frontend Specialist, Backend Architect, Full Stack Experience, DevOps Specialist, AI Engineer, Quality Assurance Specialist, Infrastructure Specialist.
+6. Use 3–4 most important technologies/tools/platforms from the JD in the title. Separate segments with " | ".
 7. Do not add extra descriptors, adjectives, company names, or role summaries. The JSON "title" field must be a clean, compact string in the formats above.
 Example: "Software Engineer | React | TypeScript | AWS "
 Example mismatch: "Software Engineer | AI Engineer | Python | TensorFlow"
