@@ -14,35 +14,35 @@
     {
       "company": "Grid Dynamics",
       "title": "Senior AI Engineer",
-      "location": "California, US",
+      "location": "California, US(remote)",
       "start_date": "Sep 2025",
       "end_date": "Present"
     },
     {
       "company": "MTX Group",
       "title": "Artificial Intelligence Engineer",
-      "location": "Texas, US",
+      "location": "Texas, US(remote)",
       "start_date": "Mar 2023",
       "end_date": "Aug 2025"
     },
     {
       "company": "Monevate",
       "title": "Machine Learning Engineer",
-      "location": "New York, US",
+      "location": "New York, US(remote)",
       "start_date": "Jul 2021",
       "end_date": "Feb 2023"
     },
     {
       "company": "Got It Vietnam",
       "title": "Data Scientist",
-      "location": "Ho Chi Minh City, Vietnam",
+      "location": "Ho Chi Minh City, Vietnam(remote)",
       "start_date": "Sep 2020",
       "end_date": "Jun 2021"
     },
     {
       "company": "Haravan",
       "title": "Data Analyst",
-      "location": "Ho Chi Minh City, Vietnam",
+      "location": "Ho Chi Minh City, Vietnam(hybrid)",
       "start_date": "Nov 2019",
       "end_date": "Aug 2020"
     }
@@ -63,5 +63,5 @@
     }
   ],
 
-  "resumeStyle": "consultant"
+  "resumeStyle": "standard"
 }

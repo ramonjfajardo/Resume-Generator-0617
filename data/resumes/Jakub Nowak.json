@@ -14,21 +14,21 @@
     {
       "company": "Endava",
       "title": "Senior Software Engineer",
-      "location": "New York, US",
+      "location": "New York, US(remote)",
       "start_date": "Sep 2024",
       "end_date": "Present"
     },
     {
       "company": "Grid Dynamics",
       "title": "Software Engineer",
-      "location": "California, US",
+      "location": "California, US(remote)",
       "start_date": "Sep 2018",
       "end_date": "Jul 2024"
     },
     {
       "company": "Got It Vietnam",
       "title": "Junior Software Engineer",
-      "location": "Ho Chi Minh City, Vietnam",
+      "location": "Ho Chi Minh City, Vietnam(remote)",
       "start_date": "Feb 2016",
       "end_date": "Aug 2018"
     }
@@ -43,5 +43,5 @@
     }
   ],
 
-  "resumeStyle": "standard"
+  "resumeStyle": "bold-split"
 }

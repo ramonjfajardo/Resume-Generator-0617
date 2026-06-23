@@ -135,7 +135,7 @@ function createStyles(config, headerLayout) {
             marginBottom: isSplit || isLeft || theme.headerStyle === 'compact' ? 2 : 0,
         },
         section: {
-            marginBottom: sectionSpacing,
+            marginBottom: sectionSpacing / 2,
         },
         sectionTitleBase: {
             fontSize: fonts.sectionSize || 10,
@@ -235,7 +235,7 @@ function createStyles(config, headerLayout) {
             fontStyle: theme.summaryItalic ? 'italic' : 'normal',
         },
         skillsCategory: {
-            marginBottom: theme.sectionStyle === 'minimal' ? 6 : 10,
+            marginBottom: theme.sectionStyle === 'minimal' ? 2 : 4,
             width: '100%',
         },
         skillsLabel: {
