@@ -1,0 +1,61 @@
+{
+  "name": "Tomasz Wójcik",
+  "title": "",
+  "email": "tomaszw.work@outlook.com",
+  "phone": "",
+  "location": "Wroclaw, Poland",
+  "postalCode": "54-614",
+  "linkedin": "https://www.linkedin.com/in/tomasz-w%C3%B3jcik-550769418/",
+  "linkedinShow": "",
+  "github": "",
+  "website": "",
+  
+  "experience": [
+    {
+      "company": "TNG Technology Consulting",
+      "title": "Senior Full Stack Engineer",
+      "location": "Munich, Germany (remote)",
+      "start_date": "Sep 2025",
+      "end_date": "Present"
+    },
+    {
+      "company": "Capco",
+      "title": "Full Stack Engineer",
+      "location": "London, United Kingdom (remote)",
+      "start_date": "Mar 2021",
+      "end_date": "Jul 2025"
+    },
+    {
+      "company": "Gravity9",
+      "title": "Backend Engineer",
+      "location": "Dublin, Ireland (remote)",
+      "start_date": "Apr 2019",
+      "end_date": "Feb 2021"
+    },
+    {
+      "company": "Allegro",
+      "title": "Frontend Engineer",
+      "location": "Poznań, Poland (hybrid)",
+      "start_date": "Jan 2018",
+      "end_date": "Mar 2019"
+    },
+    {
+      "company": "Revolut",
+      "title": "Software Engineering Intern",
+      "location": "United Kingdom (remote)",
+      "start_date": "Jan 2017",
+      "end_date": "Dec 2017"
+    }
+  ],
+  
+  "education": [
+    {
+      "degree": "Bachelor's Degree in Computer Science",
+      "school": "University of Warsaw",
+      "start_year": "2012",
+      "end_year": "2016"
+    }
+  ],
+
+  "resumeStyle": "consultant"
+}
