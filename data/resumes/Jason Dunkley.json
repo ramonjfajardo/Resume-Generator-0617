@@ -1,0 +1,61 @@
+{
+  "name": "Jason Dunkley",
+  "title": "",
+  "email": "jason_dunkley@outlook.com",
+  "phone": "",
+  "location": "Minneapolis, Minnesota, United States",
+  "postalCode": "55402",
+  "linkedin": "https://www.linkedin.com/in/jason-dunkley-b2743260/",
+  "linkedinShow": "",
+  "github": "https://github.com/slightlynybbled",
+  "website": "",
+  
+  "experience": [
+    {
+      "company": "Medical Solutions",
+      "title": "Sr Software Engineer",
+      "location": "Omaha, NE",
+      "start_date": "Aug 2025",
+      "end_date": "Present"
+    },
+    {
+      "company": "Palisaid",
+      "title": "Sr Backend Software Engineer",
+      "location": "Minneapolis, MN",
+      "start_date": "May 2025",
+      "end_date": "Present"
+    },
+    {
+      "company": "Sunnova Energy",
+      "title": "Sr Full Stack Softwware Engineer",
+      "location": "Houston, Texas",
+      "start_date": "Nov 2022",
+      "end_date": "May 2025"
+    },
+    {
+      "company": "Baird Finanacial Services",
+      "title": "Backend Software Engineer",
+      "location": "United States",
+      "start_date": "Jul 2021",
+      "end_date": "Nov 2022"
+    },
+    {
+      "company": "Epic",
+      "title": "Full Stack Software Engineer",
+      "location": "Verona, WI",
+      "start_date": "Jul 2014",
+      "end_date": "Apr 2021"
+    }
+  ],
+  
+  "education": [
+    {
+      "degree": "Bachelor's Degree in Computer Science and Biomedical Engineering",
+      "school": "Washington University",
+      "start_year": "2010",
+      "end_year": "2014"
+    }
+  ],
+
+  "resumeStyle": "consultant"
+}
