@@ -21,6 +21,26 @@ export const profileTemplateMapping = {
         template: "Resume-Modern-Green",
         prompt: "Magno Oliveira",
     },
+    "kw": {
+        resume: "Karol Wójcik",
+        template: "Resume-Modern-Green",
+        prompt: "Karol Wójcik",
+    },
+    "tw": {
+        resume: "Tomasz Wójcik",
+        template: "Resume-Modern-Green",
+        prompt: "Tomasz Wójcik",
+    },
+    "jd": {
+        resume: "Jason Dunkley",
+        template: "Resume-Modern-Green",
+        prompt: "Jason Dunkley",
+    },
+    "sy": {
+        resume: "Shibo Yang",
+        template: "Resume-Modern-Green",
+        prompt: "Shibo Yang",
+    },
 };
 
 /**
