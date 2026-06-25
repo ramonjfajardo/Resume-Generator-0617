@@ -1,19 +1,37 @@
 /**
  * Phone and LinkedIn for resume PDF header.
  * LinkedIn is shown only when profileData.linkedinShow === "show" (or true) and a URL exists.
- * Optional: linkedin as { url, show: "show" } also works.
+ * Phone can be controlled the same way with `phoneNumberShow` or via an object
+ * like `phone: { number: "+1...", show: "show" }`.
  */
 export function getContactForPdf(profileData) {
   if (!profileData) {
     return { phone: null, linkedin: null };
   }
 
+  // Phone parsing: support string or object with { number, show }
   const rawPhone = profileData.phone;
-  const phone =
-    rawPhone != null && String(rawPhone).trim() !== ''
-      ? String(rawPhone).trim()
-      : null;
+  let phoneNumber = null;
+  let showPhone = false;
 
+  if (rawPhone != null && typeof rawPhone === 'object' && !Array.isArray(rawPhone)) {
+    phoneNumber =
+      rawPhone.number != null && String(rawPhone.number).trim() !== ''
+        ? String(rawPhone.number).trim()
+        : null;
+    showPhone = rawPhone.show === 'show' || rawPhone.show === true;
+  } else if (typeof rawPhone === 'string') {
+    const s = rawPhone.trim();
+    if (s && s !== 'show') {
+      phoneNumber = s;
+    }
+    showPhone =
+      profileData.phoneNumberShow === 'show' || profileData.phoneNumberShow === true;
+  }
+
+  const phone = showPhone && phoneNumber ? phoneNumber : null;
+
+  // LinkedIn parsing (existing behavior)
   const rawLi = profileData.linkedin;
   let linkedinUrl = null;
   let showLinkedin = false;

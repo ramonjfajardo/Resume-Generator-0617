@@ -12,9 +12,11 @@ const GENERIC_MOCK_PROFILE = {
   title: "Senior Software Engineer",
   email: "john.smith@example.com",
   phone: "+1 (415) 555-0100",
+  phoneNumberShow: "show",
   location: "San Francisco, CA 94102",
   linkedin: "https://www.linkedin.com/in/example",
   linkedinShow: "show",
+  phoneNumberShow: "show",
   experience: [
     { company: "Tech Corp", location: "San Francisco, CA", title: "Senior Software Engineer", start_date: "Jan 2021", end_date: "Present" },
     { company: "StartupXYZ", location: "San Francisco, CA", title: "Software Engineer", start_date: "Mar 2019", end_date: "Dec 2020" },
