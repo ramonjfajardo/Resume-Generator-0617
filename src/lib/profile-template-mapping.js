@@ -22,14 +22,14 @@ export const profileTemplateMapping = {
         prompt: "Magno Oliveira",
     },
     "kw": {
-        resume: "Karol Wójcik",
+        resume: "Karol Wojcik",
         template: "Resume-Modern-Green",
-        prompt: "Karol Wójcik",
+        prompt: "Karol Wojcik",
     },
     "tw": {
-        resume: "Tomasz Wójcik",
+        resume: "Tomasz Wojcik",
         template: "Resume-Modern-Green",
-        prompt: "Tomasz Wójcik",
+        prompt: "Tomasz Wojcik",
     },
     "jd": {
         resume: "Jason Dunkley",
