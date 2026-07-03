@@ -31,6 +31,16 @@ export const profileTemplateMapping = {
         template: "Resume-Modern-Green",
         prompt: "Tomasz Wojcik",
     },
+    "dm": {
+        resume: "Damian Malinowski",
+        template: "Resume-Modern-Green",
+        prompt: "Damian Malinowski",
+    },
+    "ml": {
+        resume: "Marcin Lau",
+        template: "Resume-Modern-Green",
+        prompt: "Marcin Lau",
+    },
     "jd": {
         resume: "Jason Dunkley",
         template: "Resume-Modern-Green",

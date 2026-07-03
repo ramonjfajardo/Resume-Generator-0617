@@ -1,0 +1,68 @@
+{
+  "name": "Damian Malinowski",
+  "title": "",
+  "email": "damianmalinowski.work@outlook.com",
+  "phone": "+48 575 587 850",
+  "location": "Sokolniki, Poland",
+  "postalCode": "98-420",
+  "linkedin": "https://www.linkedin.com/in/damian-malinowski-81990141b/",
+  "linkedinShow": "",
+  "phoneNumberShow": "",
+  "github": "",
+  "website": "",
+  
+  "experience": [
+    {
+      "company": "Grid Dynamics",
+      "title": "Senior AI Engineer",
+      "location": "California, US(remote)",
+      "start_date": "Sep 2025",
+      "end_date": "Present"
+    },
+    {
+      "company": "Allegro",
+      "title": "Machine Learning Engineer",
+      "location": "Poznań, Poland",
+      "start_date": "Sep 2020",
+      "end_date": "Aug 2025"
+    },
+    {
+      "company": "Brainly",
+      "title": "Junior AI Engineer",
+      "location": "Kraków, Poland(remote)",
+      "start_date": "Oct 2018",
+      "end_date": "Aug 2020"
+    },
+    {
+      "company": "Meta",
+      "title": "AI Research Intern",
+      "location": "California, United States(remote)",
+      "start_date": "Jul 2017",
+      "end_date": "Sep 2017"
+    },
+    {
+      "company": "Allegro",
+      "title": "AI / Deep Learning Intern",
+      "location": "Poznań, Poland(hybrid)",
+      "start_date": "Jul 2015",
+      "end_date": "Sep 2015"
+    }
+  ],
+  
+  "education": [
+    {
+      "degree": "Bachelor of Science in Applied Mathematics",
+      "school": "University of Warsaw",
+      "start_year": "2013",
+      "end_year": "2016"
+    },
+    {
+      "degree": "Master of Science in Artificial Intelligence",
+      "school": "University of Warsaw",
+      "start_year": "2016",
+      "end_year": "2018"
+    }
+  ],
+
+  "resumeStyle": "bold-split"
+}

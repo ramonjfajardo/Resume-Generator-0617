@@ -1,11 +1,11 @@
 {
   "name": "Karol Wójcik",
   "title": "",
-  "email": "karol.work1@outlook.com",
+  "email": "karolw.work@outlook.com",
   "phone": "48 500 037 949",
   "location": "Kielce, Poland",
   "postalCode": "25-705",
-  "linkedin": "https://www.linkedin.com/in/karol-w%C3%B3jcik-2a269341a/",
+  "linkedin": "https://www.linkedin.com/in/karol-w%C3%B3jcik-77961a41a/",
   "linkedinShow": "",
   "phoneNumberShow": "",
   "github": "https://github.com/k-wojcik",
@@ -15,35 +15,35 @@
     {
       "company": "Axiom",
       "title": "Senior Software Engineer",
-      "location": "New York, USA (remote)",
+      "location": "New York, USA(remote)",
       "start_date": "Mar 2025",
       "end_date": "Present"
     },
     {
       "company": "Thoughtworks",
       "title": "Senior Software Engineer",
-      "location": "Illinois, USA (remote)",
+      "location": "Illinois, USA(remote)",
       "start_date": "Jun 2023",
       "end_date": "Feb 2025"
     },
     {
       "company": "Spotify",
       "title": "Software Engineer II",
-      "location": "Stockholm, Sweden (remote)",
+      "location": "Stockholm, Sweden(remote)",
       "start_date": "Aug 2019",
       "end_date": "May 2023"
     },
     {
       "company": "Revolut",
       "title": "Junior Software Engineer",
-      "location": "London, United Kingdom (remote)",
+      "location": "London, United Kingdom(remote)",
       "start_date": "Jan 2018",
       "end_date": "Jul 2019"
     },
     {
       "company": "Revolut",
       "title": "Software Engineering Intern",
-      "location": "London, United Kingdom (remote)",
+      "location": "London, United Kingdom(remote)",
       "start_date": "Jan 2017",
       "end_date": "Nov 2017"
     }

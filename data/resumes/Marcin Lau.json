@@ -1,0 +1,68 @@
+{
+  "name": "Marcin Lau",
+  "title": "",
+  "email": "marcin.lau@outlook.com",
+  "phone": "+48 575 589 878",
+  "location": "Wrocław, Poland",
+  "postalCode": "54-061",
+  "linkedin": "https://www.linkedin.com/in/marcin-lau-9863a0414/",
+  "linkedinShow": "",
+  "phoneNumberShow": "",
+  "github": "https://github.com/marcin-",
+  "website": "",
+  
+  "experience": [
+    {
+      "company": "Varsovia Quantum AI",
+      "title": "Senior Full Stack AI Engineer",
+      "location": "Warsaw, Poland",
+      "start_date": "Sep 2025",
+      "end_date": "Present"
+    },
+    {
+      "company": "Baltic Data Systems",
+      "title": "Machine Learning Engineer",
+      "location": "Wrocław, Poland",
+      "start_date": "Jan 2023",
+      "end_date": "Aug 2025"
+    },
+    {
+      "company": "KrakAI Solutions",
+      "title": "AI Engineer",
+      "location": "Kraków, Poland",
+      "start_date": "Jul 2020",
+      "end_date": "Dec 2022"
+    },
+    {
+      "company": "Gdańsk Neural Labs",
+      "title": "Junior AI Engineer",
+      "location": "Gdańsk, Poland",
+      "start_date": "Oct 2018",
+      "end_date": "Jun 2020"
+    },
+    {
+      "company": "Poznań Data Forge",
+      "title": "AI Engineering Intern",
+      "location": "Poznań, Poland",
+      "start_date": "Jul 2017",
+      "end_date": "Sep 2017"
+    }
+  ],
+  
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "school": "Warsaw University of Tech",
+      "start_year": "2012",
+      "end_year": "2015"
+    },
+    {
+      "degree": "Master of Science in Artificial Intelligence",
+      "school": "Jagiellonian University",
+      "start_year": "2015",
+      "end_year": "2017"
+    }
+  ],
+
+  "resumeStyle": "modern"
+}
