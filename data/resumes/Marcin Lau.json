@@ -3,7 +3,7 @@
   "title": "",
   "email": "marcin.lau@outlook.com",
   "phone": "+48 575 589 878",
-  "location": "Wrocław, Poland",
+  "location": "Wroclaw, Poland",
   "postalCode": "54-061",
   "linkedin": "https://www.linkedin.com/in/marcin-lau-9863a0414/",
   "linkedinShow": "",
@@ -22,28 +22,28 @@
     {
       "company": "Baltic Data Systems",
       "title": "Machine Learning Engineer",
-      "location": "Wrocław, Poland",
+      "location": "Wroclaw, Poland",
       "start_date": "Jan 2023",
       "end_date": "Aug 2025"
     },
     {
       "company": "KrakAI Solutions",
       "title": "AI Engineer",
-      "location": "Kraków, Poland",
+      "location": "Krakow, Poland",
       "start_date": "Jul 2020",
       "end_date": "Dec 2022"
     },
     {
-      "company": "Gdańsk Neural Labs",
+      "company": "Gdansk Neural Labs",
       "title": "Junior AI Engineer",
-      "location": "Gdańsk, Poland",
+      "location": "Gdansk, Poland",
       "start_date": "Oct 2018",
       "end_date": "Jun 2020"
     },
     {
-      "company": "Poznań Data Forge",
+      "company": "Poznan Data Forge",
       "title": "AI Engineering Intern",
-      "location": "Poznań, Poland",
+      "location": "Poznan, Poland",
       "start_date": "Jul 2017",
       "end_date": "Sep 2017"
     }
