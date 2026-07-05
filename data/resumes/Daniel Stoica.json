@@ -1,0 +1,62 @@
+{
+  "name": "Daniel Stoica",
+  "title": "",
+  "email": "danielst.work@outlook.com",
+  "phone": "+40 754 871 801",
+  "location": "Caracal, Olt, Romania",
+  "postalCode": "235200",
+  "linkedin": "",
+  "linkedinShow": "",
+  "phoneNumberShow": "",
+  "github": "https://github.com/Dyonishw",
+  "website": "",
+  
+  "experience": [
+    {
+      "company": "Nexa Software",
+      "title": "Senior Software Engineer",
+      "location": "Cluj-Napoca, Romania",
+      "start_date": "Jul 2025",
+      "end_date": "Present"
+    },
+    {
+      "company": "CloudBrick Solutions",
+      "title": "Mid-Level Software Engineer",
+      "location": "Bucharest, Romania",
+      "start_date": "Jan 2022",
+      "end_date": "Jun 2025"
+    },
+    {
+      "company": "BitStack Systems",
+      "title": "Software Engineer",
+      "location": "Bucharest, Romania",
+      "start_date": "Jul 2019",
+      "end_date": "Dec 2021"
+    },
+    {
+      "company": "InfiniCode Labs",
+      "title": "Junior Software Engineer",
+      "location": "Iasi, Romania",
+      "start_date": "Sep 2017",
+      "end_date": "Jun 2019"
+    },
+    {
+      "company": "Transylvanian Dev Studio",
+      "title": "Software Engineering Intern",
+      "location": "Cluj-Napoca, Romania",
+      "start_date": "Jul 2016",
+      "end_date": "Sep 2016"
+    }
+  ],
+  
+  "education": [
+    {
+      "degree": "Bachelor's degree in Computer Science",
+      "school": "University Politehnica of Bucharest",
+      "start_year": "2013",
+      "end_year": "2017"
+    }
+  ],
+
+  "resumeStyle": "consultant"
+}
