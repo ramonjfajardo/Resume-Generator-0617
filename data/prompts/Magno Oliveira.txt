@@ -79,6 +79,7 @@ ATS TARGETING:
 
 IMPORTANT:
 
+- If JD is in Portuguese, then generate the resume in Portuguese(BR)
 - Return only a single valid JSON object.
 - Start with { and end with }.
 - Do not include any additional commentary, markdown, or explanation.
