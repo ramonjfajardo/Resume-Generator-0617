@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Document, Page, Text, View, StyleSheet } from '@react-pdf/renderer';
+import { Document, Page, Text, View, StyleSheet, Link } from '@react-pdf/renderer';
 import { RESUME_BODY_FONT, RESUME_TITLE_FONT } from '../resume-font-family';
 import { extractYear } from './utils';
 
@@ -406,13 +406,65 @@ export const createResumeTemplate = (config) => {
             education,
         } = data;
 
+        const formatContactText = (key, value) => {
+            if (!value) {
+                return value;
+            }
+
+            const normalized = String(value).trim();
+            if (!normalized) {
+                return value;
+            }
+
+            if (key === 'linkedin') {
+                try {
+                    const parsed = new URL(normalized);
+                    const host = parsed.hostname.replace(/^www\./i, '');
+                    const path = parsed.pathname.replace(/\/+$/, '');
+                    if (host === 'linkedin.com') {
+                        return `linkedin.com${path || ''}`;
+                    }
+                    return `${host}${path || ''}`;
+                } catch {
+                    return normalized;
+                }
+            }
+
+            if (key === 'website') {
+                try {
+                    const parsed = new URL(normalized);
+                    return parsed.hostname.replace(/^www\./i, '');
+                } catch {
+                    return normalized;
+                }
+            }
+
+            return normalized;
+        };
+
+        const renderContactLineItem = (item, style) => {
+            if (item.url) {
+                return (
+                    <Link key={item.key} src={item.url} style={style}>
+                        {item.text}
+                    </Link>
+                );
+            }
+
+            return (
+                <Text key={item.key} style={style}>
+                    {item.text}
+                </Text>
+            );
+        };
+
         const renderContactLines = (asBlock, banner = false) => {
             const items = [
                 email && { key: 'email', text: email },
                 phone && { key: 'phone', text: phone },
                 location && { key: 'location', text: location },
-                linkedin && { key: 'linkedin', text: linkedin },
-                website && { key: 'website', text: website },
+                linkedin && { key: 'linkedin', text: formatContactText('linkedin', linkedin), url: linkedin },
+                website && { key: 'website', text: formatContactText('website', website), url: website },
             ].filter(Boolean);
 
             const contactStyle = banner
@@ -420,14 +472,15 @@ export const createResumeTemplate = (config) => {
                 : styles.contact;
 
             if (asBlock) {
-                return items.map((item) => (
-                    <Text key={item.key} style={[contactStyle, styles.contactItem]}>
-                        {item.text}
-                    </Text>
-                ));
+                return items.map((item) => renderContactLineItem(item, [contactStyle, styles.contactItem]));
             }
 
-            return <Text style={contactStyle}>{items.map((item) => item.text).join(' • ')}</Text>;
+            const parts = items.flatMap((item, index) => {
+                const content = renderContactLineItem(item, contactStyle);
+                return index === items.length - 1 ? [content] : [content, ' • '];
+            });
+
+            return <Text style={contactStyle}>{parts}</Text>;
         };
 
         const renderCreativeHeaderRule = () => (
