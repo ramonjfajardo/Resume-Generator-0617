@@ -417,17 +417,7 @@ export const createResumeTemplate = (config) => {
             }
 
             if (key === 'linkedin') {
-                try {
-                    const parsed = new URL(normalized);
-                    const host = parsed.hostname.replace(/^www\./i, '');
-                    const path = parsed.pathname.replace(/\/+$/, '');
-                    if (host === 'linkedin.com') {
-                        return `linkedin.com${path || ''}`;
-                    }
-                    return `${host}${path || ''}`;
-                } catch {
-                    return normalized;
-                }
+                return 'LinkedIn';
             }
 
             if (key === 'website') {
