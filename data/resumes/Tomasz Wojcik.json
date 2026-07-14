@@ -36,7 +36,7 @@
     {
       "company": "Allegro",
       "title": "Frontend Engineer",
-      "location": "Poznań, Poland(hybrid)",
+      "location": "Poznań, Poland",
       "start_date": "Jan 2018",
       "end_date": "Mar 2019"
     },
@@ -44,7 +44,7 @@
       "company": "Revolut",
       "title": "Software Engineering Intern",
       "location": "United Kingdom(remote)",
-      "start_date": "Jan 2017",
+      "start_date": "Jun 2017",
       "end_date": "Dec 2017"
     }
   ],
@@ -53,8 +53,8 @@
     {
       "degree": "Bachelor's Degree in Computer Science",
       "school": "University of Warsaw",
-      "start_year": "2012",
-      "end_year": "2016"
+      "start_year": "2014",
+      "end_year": "2017"
     }
   ],
 

@@ -8,7 +8,7 @@
   "linkedin": "https://www.linkedin.com/in/damian-malinowski-679817421/",
   "linkedinShow": "",
   "phoneNumberShow": "",
-  "github": "",
+  "github": "https://github.com/damian0815",
   "website": "",
   
   "experience": [
@@ -36,7 +36,7 @@
     {
       "company": "Meta",
       "title": "AI Research Intern",
-      "location": "California, United States(remote)",
+      "location": "London, United Kingdom(remote)",
       "start_date": "Jul 2017",
       "end_date": "Sep 2017"
     },
