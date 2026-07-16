@@ -4,7 +4,7 @@
   "email": "shiboyang13@outlook.com",
   "phone": "+1 (408) 605-8365",
   "location": "San Jose, California, United States",
-  "postalCode": "95110",
+  "postalCode": "95113",
   "linkedin": "https://www.linkedin.com/in/shibo-yang-912134111",
   "linkedinShow": "show",
   "phoneNumberShow": "",
@@ -15,21 +15,21 @@
     {
       "company": "Fortinet",
       "title": "Senior Software Engineer",
-      "location": "Sunnyvale, California, United States",
+      "location": "Sunnyvale, CA",
       "start_date": "Jun 2025",
       "end_date": "Present"
     },
     {
       "company": "NIO",
       "title": "Senior Software Engineer",
-      "location": "San Jose, California, United States",
+      "location": "San Jose, CA",
       "start_date": "Aug 2021",
       "end_date": "Jun 2025"
     },
     {
       "company": "Toyota Connected North America",
       "title": "Software Engineer",
-      "location": "Irvine, California, United States",
+      "location": "Irvine, CA",
       "start_date": "Dec 2020",
       "end_date": "Aug 2021"
     },
@@ -52,7 +52,7 @@
   "education": [
     {
       "degree": "Bachelor of Science in Mechanical Automation",
-      "school": "Mechanical Automation",
+      "school": "North China University of Technology",
       "start_year": "2011",
       "end_year": "2015"
     },
