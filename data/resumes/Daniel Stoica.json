@@ -5,7 +5,7 @@
   "phone": "+40 754 871 801",
   "location": "Caracal, Olt, Romania",
   "postalCode": "235200",
-  "linkedin": "https://www.linkedin.com/in/daniel-stoica-0bbb87421/",
+  "linkedin": "",
   "linkedinShow": "",
   "phoneNumberShow": "",
   "github": "https://github.com/Dyonishw",
@@ -13,37 +13,37 @@
   
   "experience": [
     {
-      "company": "Nexa Software",
+      "company": "Softbinator Technologies",
       "title": "Senior Software Engineer",
-      "location": "Cluj-Napoca, Romania",
+      "location": "California, US(remote)",
       "start_date": "Jul 2025",
       "end_date": "Present"
     },
     {
-      "company": "CloudBrick Solutions",
+      "company": "Romanian Soft Company SRL",
       "title": "Mid-Level Software Engineer",
       "location": "Bucharest, Romania",
       "start_date": "Jan 2022",
       "end_date": "Jun 2025"
     },
     {
-      "company": "BitStack Systems",
+      "company": "CloudBrick",
       "title": "Software Engineer",
       "location": "Bucharest, Romania",
       "start_date": "Jul 2019",
       "end_date": "Dec 2021"
     },
     {
-      "company": "InfiniCode Labs",
+      "company": "Alfa Software",
       "title": "Junior Software Engineer",
-      "location": "Iasi, Romania",
+      "location": "Cluj, Romania",
       "start_date": "Sep 2017",
       "end_date": "Jun 2019"
     },
     {
-      "company": "Transylvanian Dev Studio",
+      "company": "Transylvania Labs",
       "title": "Software Engineering Intern",
-      "location": "Cluj-Napoca, Romania",
+      "location": "Sibiu, Romania",
       "start_date": "Jul 2016",
       "end_date": "Sep 2016"
     }

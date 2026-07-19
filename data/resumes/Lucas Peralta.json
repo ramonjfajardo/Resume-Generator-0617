@@ -2,10 +2,10 @@
   "name": "Lucas Ariel Peralta",
   "title": "",
   "email": "lucasperalta.work@outlook.com",
-  "phone": "+54 9 2665 30-1753",
+  "phone": "+54 9 2665 301753",
   "location": "Merlo, San Luis, Argentina",
   "postalCode": "5881",
-  "linkedin": "https://www.linkedin.com/in/lucas-p-215a53403/",
+  "linkedin": "",
   "linkedinShow": "",
   "phoneNumberShow": "show",
   "github": "https://github.com/lucas",
@@ -13,9 +13,9 @@
   
   "experience": [
     {
-      "company": "TECLA",
+      "company": "Wizeline",
       "title": "Senior Software Engineer",
-      "location": "Texas, US(remote)",
+      "location": "California, US(remote)",
       "start_date": "Sep 2025",
       "end_date": "Present"
     },
@@ -45,7 +45,7 @@
   "education": [
     {
       "degree": "Bachelor's Degree in Computer Science",
-      "school": "Universidad Nacional de Río Negro (UNRN)",
+      "school": "National University of Río Negro",
       "start_year": "2012",
       "end_year": "2016"
     }

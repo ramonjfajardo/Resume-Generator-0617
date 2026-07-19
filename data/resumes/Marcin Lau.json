@@ -5,7 +5,7 @@
   "phone": "+48 575 589 878",
   "location": "Wroclaw, Poland",
   "postalCode": "54-061",
-  "linkedin": "https://www.linkedin.com/in/marcin-lau-9863a0414/",
+  "linkedin": "",
   "linkedinShow": "",
   "phoneNumberShow": "",
   "github": "https://github.com/marcin-",
@@ -13,35 +13,35 @@
   
   "experience": [
     {
-      "company": "Varsovia Quantum AI",
+      "company": "STX Next",
       "title": "Senior Full Stack AI Engineer",
-      "location": "Warsaw, Poland",
+      "location": "Poznan, Poland",
       "start_date": "Jan 2026",
       "end_date": "Present"
     },
     {
-      "company": "Baltic Data Systems",
+      "company": "Grid Dynamics",
       "title": "Machine Learning Engineer",
-      "location": "Wroclaw, Poland",
+      "location": "Krakow, Poland",
       "start_date": "Jul 2023",
       "end_date": "Dec 2025"
     },
     {
-      "company": "KrakAI Solutions",
+      "company": "Krakow Technology Park",
       "title": "AI Engineer",
       "location": "Krakow, Poland",
       "start_date": "Jan 2021",
       "end_date": "Jun 2023"
     },
     {
-      "company": "Gdansk Neural Labs",
+      "company": "Sii Poland",
       "title": "Junior AI Engineer",
-      "location": "Gdansk, Poland",
+      "location": "Warsaw, Poland",
       "start_date": "Jul 2018",
       "end_date": "Dec 2020"
     },
     {
-      "company": "Poznan Data Forge",
+      "company": "Allegro",
       "title": "AI Engineering Intern",
       "location": "Poznan, Poland",
       "start_date": "Apr 2018",
@@ -51,16 +51,16 @@
   
   "education": [
     {
-      "degree": "Bachelor of Science in Computer Science",
-      "school": "Warsaw University of Tech",
-      "start_year": "2012",
-      "end_year": "2016"
-    },
-    {
       "degree": "Master of Science in Artificial Intelligence",
       "school": "Jagiellonian University",
       "start_year": "2016",
       "end_year": "2018"
+    },
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "school": "Warsaw University of Tech",
+      "start_year": "2012",
+      "end_year": "2016"
     }
   ],
 

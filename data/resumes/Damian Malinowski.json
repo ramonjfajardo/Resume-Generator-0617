@@ -5,7 +5,7 @@
   "phone": "+48 575 587 850",
   "location": "Sokolniki, Poland",
   "postalCode": "98-420",
-  "linkedin": "https://www.linkedin.com/in/damian-malinowski-679817421/",
+  "linkedin": "",
   "linkedinShow": "",
   "phoneNumberShow": "",
   "github": "https://github.com/damian0815",
@@ -36,7 +36,7 @@
     {
       "company": "Meta",
       "title": "AI Research Intern",
-      "location": "London, United Kingdom(remote)",
+      "location": "Tel Aviv, Israel(remote)",
       "start_date": "Jul 2017",
       "end_date": "Sep 2017"
     },
@@ -51,16 +51,16 @@
   
   "education": [
     {
-      "degree": "Bachelor of Science in Applied Mathematics",
-      "school": "University of Warsaw",
-      "start_year": "2013",
-      "end_year": "2016"
-    },
-    {
       "degree": "Master of Science in Artificial Intelligence",
       "school": "University of Warsaw",
       "start_year": "2016",
       "end_year": "2018"
+    },
+    {
+      "degree": "Bachelor of Science in Applied Mathematics",
+      "school": "University of Warsaw",
+      "start_year": "2013",
+      "end_year": "2016"
     }
   ],
 

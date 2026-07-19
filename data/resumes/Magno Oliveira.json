@@ -2,8 +2,8 @@
   "name": "Magno Oliveira",
   "title": "",
   "email": "magnow.work@outlook.com",
-  "phone": "+55 (83) 98178-6780",
-  "location": "Sousa, Paraíba, Brazil",
+  "phone": "+55 83 98178-6780",
+  "location": "Sousa, Paraiba, Brazil",
   "postalCode": "58808-510",
   "linkedin": "https://www.linkedin.com/in/magno-werbett-de-andrade-oliveira-707a9350/",
   "linkedinShow": "show",
@@ -29,14 +29,14 @@
     {
       "company": "SOFTEC INFORMATICA LTDA",
       "title": "Software Engineer",
-      "location": "Paraíba, Brazil",
+      "location": "Paraiba, Brazil",
       "start_date": "Jan 2018",
       "end_date": "Mar 2022"
     },
     {
       "company": "SOFTEC INFORMATICA LTDA",
       "title": "Junior Software Engineer",
-      "location": "Paraíba, Brazil",
+      "location": "Paraiba, Brazil",
       "start_date": "Jan 2015",
       "end_date": "Dec 2017"
     }
@@ -44,22 +44,16 @@
   
   "education": [
     {
+      "degree": "Postgraduate Degree(Lato Sensu) in Full Stack Web Development",
+      "school": "Anhanguera University",
+      "start_year": "2023",
+      "end_year": "2023"
+    },
+    {
       "degree": "Bachelor's Degree in Computer Science Education",
-      "school": "Universidade Federal da Paraíba",
+      "school": "Federal University of Paraiba",
       "start_year": "Aug 2013",
       "end_year": "Dec 2017"
-    },
-    {
-      "degree": "Postgraduate Degree (Lato Sensu) in Full Stack Web Development",
-      "school": "Anhanguera Educacional",
-      "start_year": "Feb 2023",
-      "end_year": "Oct 2023"
-    },
-    {
-      "degree": "Bachelor's Degree in Mathematics Education",
-      "school": "UNOPAR - Universidade Norte do Paraná",
-      "start_year": "Jan 2023",
-      "end_year": "Dec 2024"
     }
   ],
 

@@ -5,7 +5,7 @@
   "phone": "+40 760 583 651",
   "location": "Poboru, Olt, Romania",
   "postalCode": "237345",
-  "linkedin": "https://www.linkedin.com/in/cristian-m-558061422/",
+  "linkedin": "",
   "linkedinShow": "",
   "phoneNumberShow": "",
   "github": "https://github.com/tianmarin",
@@ -13,42 +13,42 @@
   
   "experience": [
     {
-      "company": "DeepVision Labs",
+      "company": "TechnePlus",
       "title": "Senior AI Engineer",
-      "location": "Berlin, Germany(remote)",
+      "location": "Massachusetts, US(remote)",
       "start_date": "Jul 2025",
       "end_date": "Present"
     },
     {
-      "company": "Cognify AI",
+      "company": "Softelligence",
       "title": "AI Engineer",
-      "location": "Amsterdam, Netherlands(remote)",
+      "location": "Bucharest, Romania",
       "start_date": "Jul 2022",
       "end_date": "Jun 2025"
     },
     {
-      "company": "Bucharest AI Hub",
+      "company": "Bucharest AI",
       "title": "Machine Learning Engineer",
       "location": "Bucharest, Romania",
       "start_date": "Jan 2020",
       "end_date": "Jun 2022"
     },
     {
-      "company": "AutoBrain Systems",
+      "company": "Neurony",
       "title": "Junior AI Engineer",
       "location": "Bucharest, Romania",
       "start_date": "Sep 2017",
       "end_date": "Dec 2019"
     },
     {
-      "company": "VisionSoft Startup",
+      "company": "Genisoft",
       "title": "AI Research Intern",
-      "location": "Bucharest, Romania",
+      "location": "Timis, Romania",
       "start_date": "Jul 2016",
       "end_date": "Aug 2016"
     },
     {
-      "company": "DataForge Analytics",
+      "company": "RAI Software",
       "title": "Data Science Intern",
       "location": "Bucharest, Romania",
       "start_date": "Jul 2015",

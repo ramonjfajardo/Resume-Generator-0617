@@ -5,7 +5,7 @@
   "phone": "+48 575 487 180",
   "location": "Wroclaw, Poland",
   "postalCode": "54-614",
-  "linkedin": "https://www.linkedin.com/in/tomasz-w%C3%B3jcik-b96379422/",
+  "linkedin": "",
   "linkedinShow": "",
   "phoneNumberShow": "",
   "github": "https://github.com/tomwojcik",
@@ -22,28 +22,28 @@
     {
       "company": "Capco",
       "title": "Full Stack Engineer",
-      "location": "London, United Kingdom(remote)",
+      "location": "London, UK(remote)",
       "start_date": "Mar 2021",
       "end_date": "Jul 2025"
     },
     {
       "company": "Gravity9",
       "title": "Backend Engineer",
-      "location": "Dublin, Ireland(remote)",
+      "location": "Krakow, Poland",
       "start_date": "Apr 2019",
       "end_date": "Feb 2021"
     },
     {
       "company": "Allegro",
       "title": "Frontend Engineer",
-      "location": "Poznań, Poland",
+      "location": "Poznan, Poland",
       "start_date": "Jan 2018",
       "end_date": "Mar 2019"
     },
     {
       "company": "Revolut",
       "title": "Software Engineering Intern",
-      "location": "United Kingdom(remote)",
+      "location": "London, UK(remote)",
       "start_date": "Jun 2017",
       "end_date": "Dec 2017"
     }
