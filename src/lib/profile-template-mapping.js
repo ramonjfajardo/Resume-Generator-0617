@@ -62,9 +62,9 @@ export const profileTemplateMapping = {
         prompt: "Shibo Yang",
     },
     "ce": {
-        resume: "Carlos Escoda",
+        resume: "Carlos Esponda",
         template: "Resume-Modern-Green",
-        prompt: "Carlos Escoda",
+        prompt: "Carlos Esponda",
     },
     "js": {
         resume: "Jesse Salomon",
