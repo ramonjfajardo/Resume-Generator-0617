@@ -1,0 +1,69 @@
+{
+  "name": "Jesse Salomon",
+  "title": "",
+  "email": "jesse.salomon999@hotmail.com",
+  "phone": "+1 5127103215",
+  "location": "Boca Raton, FL",
+  "postalCode": "33433",
+  "linkedin": "https://www.linkedin.com/in/jesse-salomon-01802234",
+  "linkedinShow": "show",
+  "phoneNumberShow": "show",
+  "github": "",
+  "website": "",
+  
+  "experience": [
+    {
+      "company": "Asana",
+      "title": "Senior Software Engineer",
+      "location": "",
+      "start_date": "07/2023",
+      "end_date": "Present"
+    },
+    {
+      "company": "Pure Storage",
+      "title": "Senior Software Engineer",
+      "location": "",
+      "start_date": "05/2021",
+      "end_date": "06/2023"
+    },
+    {
+      "company": "Pure Storage",
+      "title": "Software Engineer",
+      "location": "",
+      "start_date": "07/2018",
+      "end_date": "05/2021"
+    },
+    {
+      "company": "Facebook",
+      "title": "Software Engineer",
+      "location": "",
+      "start_date": "07/2014",
+      "end_date": "12/2017"
+    },
+    {
+      "company": "Computer Science Department at Caltech",
+      "title": "Teacher Assistant",
+      "location": "",
+      "start_date": "09/2011",
+      "end_date": "06/2014"
+    },
+    {
+      "company": "Facebook",
+      "title": "Software Engineer Intern",
+      "location": "",
+      "start_date": "06/2013",
+      "end_date": "09/2013"
+    }
+  ],
+  
+  "education": [
+    {
+      "degree": "Bachelor of Science in Mathematics, Computer Science",
+      "school": "Caltech",
+      "start_year": "2010",
+      "end_year": "2014"
+    }
+  ],
+
+  "resumeStyle": "modern"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Carlos Esponda",
+  "title": "",
+  "email": "carlos.esponda.apple@hotmail.com",
+  "phone": "+1 2542218520",
+  "location": "Little Elm, TX",
+  "postalCode": "75068",
+  "linkedin": "https://www.linkedin.com/in/carlos-esponda",
+  "linkedinShow": "show",
+  "phoneNumberShow": "show",
+  "github": "",
+  "website": "",
+  
+  "experience": [
+    {
+      "company": "Capital One",
+      "title": "Senior Software Engineer",
+      "location": "",
+      "start_date": "03/2026",
+      "end_date": "Present"
+    },
+    {
+      "company": "JPMorganChase",
+      "title": "Senior Software Engineer",
+      "location": "",
+      "start_date": "01/2025",
+      "end_date": "03/2026"
+    },
+    {
+      "company": "Flatiron Health",
+      "title": "Software Engineer",
+      "location": "",
+      "start_date": "10/2022",
+      "end_date": "01/2025"
+    },
+    {
+      "company": "Raytheon Technologies",
+      "title": "Full Stack Engineer",
+      "location": "",
+      "start_date": "01/2020",
+      "end_date": "09/2022"
+    },
+    {
+      "company": "Google",
+      "title": "Software Engineer",
+      "location": "",
+      "start_date": "05/2018",
+      "end_date": "08/2019"
+    }
+  ],
+  
+  "education": [
+    {
+      "degree": "Bachelor of Science in Software Engineering",
+      "school": "The University of Texas",
+      "start_year": "2016",
+      "end_year": "2019"
+    }
+  ],
+
+  "resumeStyle": "consultant"
+}
